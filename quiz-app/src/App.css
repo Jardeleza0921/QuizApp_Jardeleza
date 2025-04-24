@@ -52,3 +52,17 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+body {
+  background-image: url('https://media.istockphoto.com/id/976594860/vector/sunflowers-on-wooden-background.jpg?s=612x612&w=0&k=20&c=-P4J6CQwNU1xzq4qUzUfbvP1ABcpV-7HOaCoulL9Q8o='); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+}
+
+.container {
+  /* Add any existing styles for your container here */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background to the container for better readability */
+  padding: 20px; /* Optional: Add padding to the container */
+  border-radius: 10px; /* Optional: Add rounded corners to the container */
+}
